@@ -1,4 +1,6 @@
 public class Main {
+    //call the deprecated method in the class that needs to be suppressed
+    @SuppressWarnings({"deprecation"})
     public static void main(String[] args) {
         Author author = new Author("Sandi", "Metz");
 
